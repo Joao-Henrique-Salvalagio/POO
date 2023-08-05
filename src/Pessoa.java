@@ -20,6 +20,11 @@ public class Pessoa {
         this.Data_nascimento = novaData;
     }
 
+    public Pessoa (String novoNome, Integer novaIdade, Date novaData){
+      this.idade = novaIdade;
+      this.nome = novoNome;
+      this.Data_nascimento = novaData;
+    }
     public String getNome(){
         return this.nome;
     }
